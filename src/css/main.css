@@ -243,7 +243,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-	@-moz-keyframes bg {
+	/* @-moz-keyframes bg {
 		0% {
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
@@ -305,7 +305,7 @@ input, select, textarea {
 			-ms-transform: translateX(-25%);
 			transform: translateX(-25%);
 		}
-	}
+	} */
 
 /* Type */
 
@@ -1116,9 +1116,9 @@ input, select, textarea {
 			-webkit-transition: opacity 0.5s ease-in-out;
 			-ms-transition: opacity 0.5s ease-in-out;
 			transition: opacity 0.5s ease-in-out;
-			bottom: 4em;
+			bottom: auto;
+			left: auto;
 			color: rgba(255, 255, 255, 0.5);
-			left: 4em;
 			opacity: 0.5;
 			position: absolute;
 		}
@@ -1157,13 +1157,4 @@ input, select, textarea {
 
 		#footer > :last-child {
 			margin-bottom: 0;
-		}
-
-		@media screen and (max-width: 1680px) {
-
-			#footer {
-				bottom: auto;
-				left: auto;
-			}
-
 		}

@@ -3,7 +3,7 @@ import React from "react"
 let inlinedStyles = ""
 if (process.env.NODE_ENV === "production") {
   try {
-    inlinedStyles = require("!raw-loader!../public/styles.css")
+    inlinedStyles = require("!raw-loader!../public/main.css")
   } catch (e) {
     console.log(e)
   }
