@@ -4,10 +4,11 @@ import SlideShow from '../components/SlideShow'
 import red from '../images/bg01.jpg'
 import blue from '../images/bg02.jpg'
 import green from '../images/bg03.jpg'
-import '../css/main.css'
+import '../css/styles.css'
 class IndexPage extends React.Component {
 
   componentDidMount() {
+    document.body.classList.add("is-preload")
     window.addEventListener('load', this.initialLoadAnimation);
   }
 
