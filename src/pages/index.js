@@ -40,10 +40,10 @@ class IndexPage extends React.Component {
 
           <footer id="footer">
             <ul className="icons">
-              <li><a href="#twitter" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-              <li><a href="#ig" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-              <li><a href="#github" className="icon fa-github"><span className="label">GitHub</span></a></li>
-              <li><a href="#email" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
+              <li><a href="https://twitter.com" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+              <li><a href="https://instagram.com" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+              <li><a href="https://github.com" className="icon fa-github"><span className="label">GitHub</span></a></li>
+              <li><a href="https://google.com" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
             </ul>
             <ul className="copyright">
               <li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
